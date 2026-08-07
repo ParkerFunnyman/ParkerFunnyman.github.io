@@ -92,10 +92,10 @@ footer {
     }
 
     #name{
-        font-size: 15px;
+        font-size: 1rem;
     }
 
     #subtitle{
-        font-size: 15px;
+        font-size: 1rem;
     }
 }
