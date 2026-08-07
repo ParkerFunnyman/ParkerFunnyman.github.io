@@ -81,6 +81,7 @@ footer {
     text-align: center;
 }
 
+/*Mobile devices*/
 @media (max-width: 767px) {
     #pfp {
         height: 25vh;
@@ -88,5 +89,13 @@ footer {
 
     #intro {
         overflow: auto;
+    }
+
+    #name{
+        font-size: 15px;
+    }
+
+    #subtitle{
+        font-size: 15px;
     }
 }
