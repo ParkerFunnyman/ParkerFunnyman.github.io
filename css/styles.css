@@ -77,6 +77,11 @@ section {
     border-radius: 10px;
 }
 
+.project img{
+    width: 20%;
+    height: auto;
+}
+
 footer {
     text-align: center;
 }
@@ -97,5 +102,10 @@ footer {
 
     #subtitle{
         font-size: 1rem;
+    }
+
+    .project img{
+        width: 60%;
+        height: auto;
     }
 }
