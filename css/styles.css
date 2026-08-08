@@ -13,6 +13,7 @@ body {
     background-color: var(--dark-lava);
     font-family: sans-serif;
     font-size: 15px;
+    color: var(--outer-space);
 }
 
 header {
@@ -46,6 +47,7 @@ header {
 #intro {
     overflow: auto;
     text-align: center;
+    height: 100%;
 }
 
 #name {
@@ -56,6 +58,16 @@ header {
 #subtitle {
     font-style: italic;
     font-size: 25px;
+}
+
+#social-links{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+}
+
+#social-links a{
+    text-decoration: none;
 }
 
 main {
