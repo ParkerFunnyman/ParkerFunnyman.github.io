@@ -103,6 +103,7 @@ section {
 }
 
 /* WORK EXPERIENCE */
+
 .job{
     display: flex; 
     width: 100%;
@@ -112,21 +113,27 @@ section {
     font-weight: bold;
 }
 
+.job span:nth-child(2){
+    font-style: italic;
+}
+
 .job span:last-child{
-    align-self: flex-end;
+    width: auto;
+    margin-left: calc(100% - width);
 }
 
 /* PROJECTS */
 .project img {
     width: 20%;
     height: auto;
+    border: 2px var(--bone) solid;
 }
 
 footer {
     text-align: center;
 }
 
-/*Mobile devices*/
+/* Mobile devices */
 @media (max-width: 767px) {
     #pfp {
         height: 25vh;
