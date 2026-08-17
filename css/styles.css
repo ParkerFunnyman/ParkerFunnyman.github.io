@@ -91,7 +91,7 @@ section {
 }
 
 #social-links a:hover {
-    color: steelblue;
+    color: white;
 }
 
 #pfp {
@@ -104,29 +104,56 @@ section {
 
 /* WORK EXPERIENCE */
 
-.job{
-    display: flex; 
+.job {
+    display: flex;
     width: 100%;
 }
 
-.job span:first-child{
+.job span:first-child {
     font-weight: bold;
 }
 
-.job span:nth-child(3){
+.job span:nth-child(3) {
     font-style: italic;
 }
 
-.job span:last-child{
+.job span:last-child {
     width: auto;
     margin-left: calc(100% - width);
 }
 
 /* PROJECTS */
+#project-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+#project-container .project {
+    border: black 2px solid;
+    border-radius: 10%;
+    background-color: steelblue;
+    text-align: center;
+}
+
 .project img {
-    width: 20%;
-    height: auto;
+    width: 80%;
+    height: 67%;
+    object-fit: contain;
+    background-color: var(--outer-space);
     border: 2px var(--bone) solid;
+}
+
+.project a {
+    text-decoration: none;
+}
+
+.project a:visited{
+    color: black;
+}
+
+.project a:hover{
+    color: white;
 }
 
 footer {
