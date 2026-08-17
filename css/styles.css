@@ -136,6 +136,10 @@ section {
     text-align: center;
 }
 
+.project{
+    padding-bottom: 20px;
+}
+
 .project img {
     width: 80%;
     height: 67%;
