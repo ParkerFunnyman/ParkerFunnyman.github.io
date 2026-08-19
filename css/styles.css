@@ -51,7 +51,7 @@ main {
 
 section {
     background-color: var(--dark-pastel-blue);
-    padding: 15px;
+    padding: 1.5vw;
     margin: 2.5vh 10px;
     border-radius: 10px;
 }
@@ -129,14 +129,14 @@ section {
     gap: 10px;
 }
 
-#project-container .project {
+
+
+.project {
+    height: auto;
     border: black 2px solid;
     border-radius: 10%;
     background-color: steelblue;
     text-align: center;
-}
-
-.project{
     padding-bottom: 20px;
 }
 
@@ -152,12 +152,16 @@ section {
     text-decoration: none;
 }
 
-.project a:visited{
+.project a:visited {
     color: black;
 }
 
-.project a:hover{
+.project a:hover {
     color: white;
+}
+
+.project a:hover img {
+    border: 2px white solid;
 }
 
 footer {
