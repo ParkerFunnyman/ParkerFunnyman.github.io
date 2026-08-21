@@ -74,11 +74,11 @@ section {
 }
 
 #social-links {
+    margin-top: 3.5%;
     display: flex;
     justify-content: space-evenly;
     font-size: 1.2rem;
     flex-wrap: wrap;
-    gap: 20px;
 }
 
 #social-links a {
@@ -100,6 +100,12 @@ section {
     height: 40vh;
     float: left;
     margin-right: 25px;
+}
+
+/* ABOUT ME */
+#about-me p{
+    text-indent: 2em;
+    line-height: 1.6em;
 }
 
 /* WORK EXPERIENCE */
