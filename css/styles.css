@@ -51,7 +51,7 @@ main {
 
 section {
     background-color: var(--dark-pastel-blue);
-    padding: 1.5vw;
+    padding: 1.5rem;
     margin: 2.5vh 10px;
     border-radius: 10px;
 }
@@ -123,9 +123,8 @@ section {
     font-style: italic;
 }
 
-.job span:last-child {
-    width: auto;
-    margin-left: calc(100% - width);
+.job p:last-child {
+    margin-left: auto;
 }
 
 /* PROJECTS */
