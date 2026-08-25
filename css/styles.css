@@ -103,7 +103,7 @@ section {
 }
 
 /* ABOUT ME */
-#about-me p{
+#about-me p {
     text-indent: 2em;
     line-height: 1.6em;
 }
@@ -113,6 +113,10 @@ section {
 .job {
     display: flex;
     width: 100%;
+}
+
+.job p {
+    margin-right: 1.5em;
 }
 
 .job span:first-child {
@@ -134,8 +138,6 @@ section {
     gap: 10px;
 }
 
-
-
 .project {
     height: auto;
     border: black 2px solid;
@@ -147,7 +149,7 @@ section {
 
 .project img {
     width: 80%;
-    height: 67%;
+    height: 30vh;
     object-fit: contain;
     background-color: var(--outer-space);
     border: 2px var(--bone) solid;
@@ -167,6 +169,10 @@ section {
 
 .project a:hover img {
     border: 2px white solid;
+}
+
+.project a p {
+    font-style: italic;
 }
 
 footer {
@@ -191,8 +197,14 @@ footer {
         font-size: 1rem;
     }
 
+    #project-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
     .project img {
-        width: 60%;
-        height: auto;
+        width: 20vw;
+        height: 30vh;
     }
 }
