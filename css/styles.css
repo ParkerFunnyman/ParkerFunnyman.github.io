@@ -26,6 +26,7 @@ header {
     height: var(--header-height);
     background-color: var(--outer-space);
     z-index: 999;
+    border-bottom: black 2px solid;
 }
 
 #nav-link {
@@ -204,7 +205,6 @@ footer {
     }
 
     .project img {
-        width: 20vw;
-        height: 30vh;
+        width: 67%;
     }
 }
