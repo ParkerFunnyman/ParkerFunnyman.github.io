@@ -8,7 +8,7 @@
     <title>Parker Carroll</title>
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" />
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap">
     <link rel="icon" type="image/png" href="assets\images\tempicon.png" />
 </head>
 
@@ -93,26 +93,31 @@
 
         <section id="education">
             <h2>Education</h2>
-            <ul>
-                <li>University of Arkansas, BS in Computer Science</li>
-                <ul>
-                    <li>Expected Graduation: May 2028</li>
-                    <li>Current GPA: 4.0</li>
-                    <li>Minor in Mathematics</li>
-                    <li>Honors College</li>
-                </ul>
-                <li>Arkansas Northeastern College, Dual Enrollment</li>
-                <ul>
-                    <li>GPA: 4.0</li>
-                    <li>ANC Board of Trustees Scholar</li>
-                </ul>
-                <li>East Poinsett County High School, HS Diploma</li>
-                <ul>
-                    <li>Graduation Date: May 2024</li>
-                    <li>GPA: 4.2</li>
-                    <li>Valedictorian</li>
-                </ul>
-            </ul>
+            <div id="education-container">
+                <div class="school">
+                    <img src="https://brand.uark.edu/_resources/images/Seal_copy.jpg" alt="UARK logo"
+                        class="school-logo" />
+                    <h3>University of Arkansas</h3>
+                    <p>BS in Computer Science</p>
+                    <ul>
+                        <li>Expected Graduation: May 2028</li>
+                        <li>Current GPA: 4.0</li>
+                        <li>Minor in Mathematics</li>
+                        <li>Honors College</li>
+                    </ul>
+                </div>
+                <div class="school">
+                    <img src="https://cmsv2-assets.apptegy.net/uploads/6183/logo/7321/Poinsett_County__AR_Logo_color.png"
+                        alt="East Poinsett County HS logo" />
+                    <h3>East Poinsett County High School</h3>
+                    <p>High School Diploma</p>
+                    <ul>
+                        <li>Graduated: May 2024</li>
+                        <li>GPA: 4.2</li>
+                        <li>Valedictorian</li>
+                    </ul>
+                </div>
+            </div>
         </section>
 
         <section id="projects">
@@ -121,11 +126,11 @@
                 <div class="project">
                     <a href="#intro" target="_blank">
                         <h3>This Very Website</h3>
-                        <p>It's this website</p>
+                        <p>"Oh neat." - You, probably</p>
                         <img src="assets\images\TempWebsite.png" alt="Screenshot of the website" />
                     </a>
                     <p>Solo Developer</p>
-                    <p><b>Tools & Technologies:</b> HTML, CSS</p>
+                    <p><strong>Tools & Technologies:</strong> HTML, CSS</p>
                 </div>
                 <div class="project">
                     <a href="https://github.com/ParkerFunnyman/gdii-battle-ui-demo/" target="_blank">
@@ -134,7 +139,7 @@
                         <img src="assets\images\Vessel.png" alt="Screenshot of a battle in Vessel" />
                     </a>
                     <p>Programmer</p>
-                    <p><b>Tools & Technologies:</b> C#, Unity, Figma, Trello</p>
+                    <p><strong>Tools & Technologies:</strong> C#, Unity, Figma, Trello</p>
                 </div>
                 <div class="project">
                     <a href="https://github.com/ParkerFunnyman/programming-paradigms-honors-project" target="_blank">
@@ -144,7 +149,7 @@
                             alt="Screenshot of Ms. Pacman game running on a GBA Emulator" />
                     </a>
                     <p>Solo Developer</p>
-                    <p><b>Tools & Technologies:</b> C, Tonc, Oracle VirtualBox</p>
+                    <p><strong>Tools & Technologies:</strong> C, Tonc, Oracle VirtualBox</p>
                 </div>
                 <div class="project">
                     <a href="https://parkerfunnyman.itch.io/the-rescue-of-joseph-sawmill" target="_blank">
@@ -154,7 +159,7 @@
                             alt="The preview image of Rescue of Joseph Sawmill" />
                     </a>
                     <p>Solo Developer</p>
-                    <p><b>Tools & Technologies:</b> Godot, GDScript</p>
+                    <p><strong>Tools & Technologies:</strong> Godot, GDScript</p>
                 </div>
                 <div class="project">
                     <a href="https://github.com/nosesoap/KaleiGo" target="_blank">
@@ -163,7 +168,7 @@
                         <img src="assets\images\KaleiGo.png" alt="Log-in screen for KaleiGo" />
                     </a>
                     <p>Designer</p>
-                    <p><b>Tools & Technologies:</b> Figma, Krita</p>
+                    <p><strong>Tools & Technologies:</strong> Figma, Krita</p>
                 </div>
                 <div class="project">
                     <a href="https://github.com/ParkerFunnyman/change" target="_blank">
@@ -172,7 +177,7 @@
                         <img src="assets\images\March of the Penny.png" alt="Screenshot of March of the Penny" />
                     </a>
                     <p>Solo Developer</p>
-                    <p><b>Tools & Technologies:</b> Godot, GDScript, Krita</p>
+                    <p><strong>Tools & Technologies:</strong> Godot, GDScript, Krita</p>
                 </div>
         </section>
 
@@ -190,10 +195,10 @@
             <h2>Activities</h2>
             <ul>
                 <li>
-                    XR@Arkansas
+                    XR@Arkansas, Vice President
                 </li>
                 <li>
-                    Razorback Game Devs
+                    Razorback Game Devs, Treasurer
                 </li>
             </ul>
         </section>

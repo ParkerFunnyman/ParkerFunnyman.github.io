@@ -55,6 +55,7 @@ section {
     padding: 1.5rem;
     margin: 2.5vh 10px;
     border-radius: 10px;
+    border: black 2px solid;
 }
 
 /* INTRO */
@@ -132,6 +133,38 @@ section {
     margin-left: auto;
 }
 
+/* EDUCATION */
+
+#education-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.school{
+    border: black 2px solid;
+    border-radius: 5vh;
+    background-color: steelblue;
+    text-align: center;
+    padding: 10px;
+}
+
+.school img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.school p{
+    font-style: italic;
+}
+
+.school ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
 /* PROJECTS */
 #project-container {
     display: grid;
@@ -142,7 +175,7 @@ section {
 .project {
     height: auto;
     border: black 2px solid;
-    border-radius: 10%;
+    border-radius: 5vh;
     background-color: steelblue;
     text-align: center;
     padding-bottom: 20px;
