@@ -160,8 +160,8 @@ section {
 }
 
 .school img{
-    width: min(30vh, 30vw);
-    height: min(30vh, 30wv);
+    width: min(30vh, 30vw, calc(50% - 40px));
+    height: min(30vh, 30wv, calc(50% - 40px));
     border-radius: 50%;
     background-color: white;
     border: black 2px solid;
