@@ -66,14 +66,13 @@ section {
     gap: 10px;
 
     text-align: center;
-    height: 100%;
 }
 #pfp {
     grid-area: "pfp";
     border: black 2px solid;
     border-radius: 40%;
-    height: 30vh;
     margin-right: 25px;
+    max-width: 100%;
 }
 
 #intro-text{
