@@ -7,12 +7,12 @@
     --dark-lava: #47423A;
 
     --header-height: 50px;
+    font-size: 20px;
 }
 
 body {
     background-color: var(--dark-lava);
     font-family: "Space Grotesk", sans-serif;
-    font-size: 16px;
     color: black;
 }
 
@@ -72,7 +72,7 @@ section {
     grid-area: "pfp";
     border: black 2px solid;
     border-radius: 40%;
-    height: 40vh;
+    height: 30vh;
     margin-right: 25px;
 }
 
@@ -85,7 +85,7 @@ section {
 
 #name {
     font-family: "Archivo Black", sans-serif;
-    font-size: 45px;
+    font-size: 3rem;
 }
 
 #subtitle {
@@ -250,4 +250,5 @@ footer {
     .project img {
         width: 67%;
     }
+
 }
