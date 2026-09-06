@@ -228,9 +228,6 @@ footer {
 
 /* Mobile devices */
 @media (max-width: 767px) {
-    #pfp {
-        height: 25vh;
-    }
 
     #intro {
         overflow: auto;
