@@ -9,6 +9,8 @@
     <script
         src="https://unpkg.com/aframe-environment-component@1.5.x/dist/aframe-environment-component.min.js"></script>
 
+    <script src="https://unpkg.com/aframe-look-at-component/dist/aframe-look-at-component.min.js"></script>
+
     <script>
         function getPokemon(dexNum, pokemon, changeText) {
             const apiUrl = `https://pokeapi.co/api/v2/pokemon/${dexNum}`;
@@ -38,17 +40,6 @@
 
     <!-- Registers customer Components -->
     <script>
-        AFRAME.registerComponent('face-camera-y', {
-            init: function () {
-                this.camPos = new THREE.Vector3();
-            },
-            tick: function () {
-                this.el.sceneEl.camera.getWorldPosition(this.camPos);
-                const pos = this.el.object3D.position;
-                this.el.object3D.lookAt(this.camPos.x, pos.y, this.camPos.z);
-            }
-        });
-
         AFRAME.registerComponent('pokemon-area', {
             init: function () {
                 setInterval(() => {
@@ -67,7 +58,7 @@
                     pokemon.setAttribute('material', 'transparent: true; alphaTest: 0.5');
                     pokemon.setAttribute('position', `${x} ${y} ${z}`);
                     pokemon.setAttribute('shader', 'flat');
-                    pokemon.setAttribute('face-camera-y', '');
+                    pokemon.setAttribute('look-at', '#main-camera');
 
                     this.el.sceneEl.appendChild(pokemon);
 
